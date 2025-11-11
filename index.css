@@ -1,0 +1,69 @@
+
+body{
+    background-image: url(https://server.wallpaperalchemy.com/storage/wallpapers/129/galactic-wallpaper-4k.jpg);
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no-repeat;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    margin: 0;
+   
+}
+
+
+
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 20px;
+
+}
+
+
+header img{
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header h1{
+    color: white;
+    font-size: 4em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.animacion{
+    transition: transform 1000ms;
+    margin-right: 20px;
+}
+
+.animacion:hover{
+transform: rotate(-360deg);
+}
+
+.divPrincipal{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.proyecto{
+    transition: transform 0.3s;
+    & img{
+        width: 500px;
+        border-radius: 10px;
+        margin-top: 50px;
+        
+    }
+}
+.proyecto:hover {
+    transform: scale(1.05);
+    
+}
+
+
+

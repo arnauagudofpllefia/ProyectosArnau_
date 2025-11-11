@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    background-color: lightcoral;
+}
+
+.divGeneral{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 40%;
+    position: absolute;
+}
+h1 {
+    color: #3a0808;
+    padding-bottom: 50px;
+}
+
+input, button {
+    margin: 10px;
+    padding: 8px;
+    font-size: 16px;
+}
+input {
+    border: 2px solid #3a0808;
+    border-radius: 4px;
+    background-color: rgb(235, 213, 213);
+}
+button {
+    background-color: #3a0808;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #791313;
+}
+
+#texto, #divIntentos, #divHistorial {
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+}
+
+#divHistorial {
+    background-color: rgb(235, 213, 213);
+    border: 2px solid #3a0808;
+    border-radius: 4px;
+    padding: 15px;
+    margin-top: 20px;
+
+}
+
+.numero1{
+    position: relative;
+    top: 400px;
+    left: 300px;
+
+}
+
+.numero2{
+    position: relative;
+    top: 200px;
+    left: 900px;
+    
+}
+
+.numero3{
+    position: relative;
+    top: 700px;
+    left: 20px;
+
+}
+
+.numero5{
+    position: relative;
+    top: 650px;
+    left: 1500px;
+
+}
+.numero8{
+    position: relative;
+    top: 100px;
+    left: 100px;
+}

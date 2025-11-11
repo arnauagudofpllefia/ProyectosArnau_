@@ -1,0 +1,125 @@
+body{
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(139, 212, 161);
+}
+
+.tablero img{
+    width: 800px;
+    position: relative;
+}
+
+#divJugador1, #divJugador2{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+#divJugador1{
+    background-color: red;
+    border-radius: 50%;
+    transition: left 1s, top 1s;
+}
+#divJugador2{
+    background-color: blue;
+    border-radius: 50%;
+    transition: left 1s, top 1s;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-top: 10px;
+    
+}
+
+#resultadoDadoJ1, #resultadoDadoJ2{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    background-color: lightgray;
+    margin: 35px;
+}
+
+.botonJ1{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    
+}
+
+.botonJ2{
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+
+}
+
+#divPreguntas {
+    position: fixed;
+    top: 35%;
+    left: 40%;
+    background-color: rgb(139, 212, 161);
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    display: none;
+}
+
+.divPreguntas {
+    text-align: center;
+}
+
+.divRespuestas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.botonRespuesta {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(209, 248, 221);
+}
+
+
+.flex {
+    display: flex;
+    position: relative;
+}
+
+#divPreguntasJ2 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgb(0, 38, 255);
+    padding: 20px;
+    width: 400px;
+    height: 100%;
+    
+}
+#divPreguntasJ1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 0, 0);
+    padding: 20px;
+    width: 400px;
+    height: 100%;
+    
+}
+.tamanoOca img{
+    width: 400px;
+    height: 400px;
+    margin-top: 50%;
+}

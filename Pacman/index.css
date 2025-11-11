@@ -1,0 +1,22 @@
+    body{
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(36, 36, 204);
+    }
+    h1{
+        color: white;
+    }
+    .flex{
+        display: flex;
+        justify-content: center;
+    }
+    .casilla{
+        background-color: blue;
+        border: solid 1px;
+        width: 40px;
+        height: 40px;
+    }
+    .padman{
+        width: 30px;
+        height: 30px;
+    }
