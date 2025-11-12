@@ -1,0 +1,28 @@
+body {
+      width: 500px;
+      margin: 50px auto;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #2cb189;
+      text-align: center;
+    }
+    h2 {
+      color: #ffffff;
+    }
+    
+    input {
+      margin: 5px 0;
+      padding: 5px;
+      width: 100%;
+
+    }
+    button {
+      margin: 10px 0;
+      padding: 8px 12px;
+      background-color: rgb(41, 105, 89);
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+
+    
