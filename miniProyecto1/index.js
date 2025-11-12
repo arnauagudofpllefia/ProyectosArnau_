@@ -1,4 +1,4 @@
-const intentosMax = 5
+const intentosMax = 10
 const rangoMin = 1
 const rangoMax = 100
 let intentosRestantes = intentosMax
